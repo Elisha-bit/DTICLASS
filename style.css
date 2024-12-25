@@ -1,0 +1,32 @@
+*{
+    padding: 0.5em;
+    margin:  0.5em;
+    box-sizing:inherit;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.textbox{
+    padding: 15px;
+    width: 50vw;
+    max-width: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border: 7px solid transparent;
+    transition: all 0.8s ease-in-out;
+}
+
+.textbox:hover{
+    background-color: rgba(132, 225, 192, 0.749);
+}
